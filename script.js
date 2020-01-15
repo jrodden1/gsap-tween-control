@@ -27,3 +27,10 @@ document.getElementById("restart").onclick = ()=> tween.restart();
 
 // GSAP Docs for Tweens:
 // https://greensock.com/docs/v3/GSAP/Tween?ref=6234
+
+// Example information from docs:
+// for .play()
+// https://greensock.com/docs/v3/GSAP/Tween/play()
+// .play(from: number, suppressEvents: Boolean)  (returns self)
+//    .from - the time from which the animation should start playing 
+//    example -> If tween is 10 seconds long, you can say - .play(5) and it will start the tween 5 seconds into the 10 sec tween
