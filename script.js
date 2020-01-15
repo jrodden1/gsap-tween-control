@@ -22,3 +22,8 @@ document.getElementById("restart").onclick = ()=> tween.restart();
 
 // Above notice the 4 basic methods for running the tween:
 // play, pause, reverse, restart
+
+// Law of GSAP - tweens will NOT automatically restart after they finish playing
+
+// GSAP Docs for Tweens:
+// https://greensock.com/docs/v3/GSAP/Tween?ref=6234
